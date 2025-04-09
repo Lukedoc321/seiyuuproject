@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2025 HG Voice Acting Project</title>
+    <meta name="2025 HG VA Project">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+</head>
+<body>
+<div id="delete">
+  <div id="flex">
+
+  <div class="inner" id="jojo">
+    <!--<video width="75%" height="" controls style="margin:auto">
+    <source src="videos/jojo.mp4" type="video/mp4">
+  </div>-->
+      <a href ="videos/jojo.mp4" class = "button" download id="jojob">
+        <button class="button button1"><h2>ジョジョ</h2></button>
+      </a>
+
+  </div>
+
+  <div class="inner" id="asobi">
+    <!--<video width="75%" height="" controls style="margin:auto">
+    <source src="videos/jojo.mp4" type="video/mp4">
+  </div>-->
+      <a href ="videos/asobi.mp4" class = "button" download id="asobib">
+        <button class="button button1"><h2>遊び遊ばせ</h2></button>
+      </a>
+
+  </div>
+
+  </div>
+
+  <script>
+  window.onload = function() {
+    var password = prompt("半角でパスワードを入力してください。", "");
+
+    if (password == "hg2025") {
+    }
+    else {
+      alert("サイトをリーローしてもう一度入力してください。");
+      const elementToRemove = document.getElementById('delete').remove();
+      elementToRemove.remove();
+    }
+  }
+
+  </script>
+</div>
+</body>
+
+</html>
